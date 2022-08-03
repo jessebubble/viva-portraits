@@ -39,85 +39,46 @@ export default function App() {
       <div className='max-w-2xl lg:max-w-7xl mx-auto py-16 sm:py-24 px-4 sm:px-6 lg:px-8 '>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-6 xl:gapx-8'>
           <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75 hover:rotate-6' 
+            <img src='../bianca-berg-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:rotate-6'
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75 hover:-rotate-6' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-lime-400'>
+            <img src='../rene-muller-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:-rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-yellow-400'>
+            <img src='../vahid-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-rose-400'>
+            <img src='../alex-sheldon-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:-rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-purple-400'>
+            <img src='../houcine-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-cyan-400'>
+            <img src='../alex-sheldon2-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:-rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-emerald-400'>
+            <img src='../eddie-lackmann-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
+          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-orange-400'>
+            <img src='../mishael-zahed-unsplash.png' alt='headshot' 
+                className='w-full h-full object-center object-cover hover:-rotate-6' 
               />
           </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
-          <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-sky-400'>
-            <img src='../bianca-berg-unsplash.jpg' alt='headshot' 
-                className='w-full h-full object-center object-cover hover:opacity-75' 
-              />
-          </div>
+          
         </div>
       </div>
     </main>
