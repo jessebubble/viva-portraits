@@ -43,7 +43,7 @@ export default function App() {
     <main className='bg-gradient-to-b from-white via-emerald-300 to-emerald-500'>
       <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-8 sm:pb-6'>
         <div className='inline-grid grid-cols-1'> 
-          <div className='pt-6 xl:pr-48 '>
+          <div className='pt-6 xl:pr-36 '>
             <h2 className='text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
               Pricing with a <span className='text-rose-500 '>PURPOSE</span>
             </h2>
