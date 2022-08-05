@@ -12,7 +12,7 @@ export default function App() {
             </span>
         </Link>
         <div className='w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-row p-4 pt-4 md:space-x-8 md:text-lg md:font-medium md:border-0 '>
+          <ul className='flex flex-row justify-center p-4 pt-4 md:space-x-8 md:text-lg md:font-medium md:border-0 '>
             <Link to='/portraits' 
                   className='block py-2 pr-4 pl-3 text-white md:p-0 hover:text-rose-400'
                   aria-current='page'>Portraits
@@ -86,21 +86,13 @@ export default function App() {
     </main>
     <main className="flex flex-col">
       <div className="px-4 py-10 xl:py-11 bg-black">
-          <h1 className="text-2xl md:text-4xl xl:text-5xl text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
+          <h1 className="text-3xl md:text-4xl xl:text-5xl text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
             More Than Just A Memory
           </h1>
       </div>
     </main>
     <main className='bg-gradient-to-t from-white via-amber-100 to-rose-300'>
       <div className='max-w-2xl lg:max-w-7xl mx-auto py-10 xl:py-9 sm:py-24 px-4 sm:px-6 lg:px-8 '>
-        <div className="pb-10 xl:pb-11 ">
-            <h1 className="text-3xl md:text-4xl xl:text-7xl text-center tracking-tight font-light text-black ">
-                <span className='text-purple-500'>VIVA </span>Portraits
-            </h1>
-            <p className="text-lg xl:text-xl text-center font-light tracking-tight text-gray-900">
-              More Than Just A Pet
-            </p>
-        </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-6 xl:gapx-8'>
           <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-amber-400'>
             <img src='../topcools-unsplash.png' alt='headshot' 
@@ -147,21 +139,13 @@ export default function App() {
     </main>
     <main className="flex flex-col">
       <div className="bg-gray-900 px-4 py-10 xl:py-11">
-          <h1 className="text-2xl md:text-4xl xl:text-5xl text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
-            More Than Just A Picture 
+          <h1 className="text-3xl md:text-4xl xl:text-5xl text-center tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-lime-400 via-teal-400 to-rose-400">
+            More Than Just A Moment
           </h1>
       </div>
     </main>
     <main className='bg-gradient-to-b from-white via-amber-100 to-rose-300'>
       <div className='max-w-2xl lg:max-w-7xl mx-auto py-10 xl:py-9 sm:py-24 px-4 sm:px-6 lg:px-8 '>
-        <div className="pb-10 xl:pb-11 ">
-            <h1 className="text-3xl md:text-4xl xl:text-7xl text-center tracking-tight font-light text-black ">
-                <span className='text-amber-400'>VIVA </span>Portraits
-            </h1>
-            <p className="text-lg xl:text-xl text-center font-light tracking-tight text-gray-900">
-              More Than Just A Memory
-            </p>
-        </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-6 xl:gapx-8'>
           <div className='w-full rounded-lg overflow-hidden aspect-w-1 aspect-h-1 xl:aspect-w-7 xl:aspect-h-8 bg-teal-400'>
             <img src='../clarissa-watson-unsplash.png' alt='headshot' 
@@ -231,7 +215,7 @@ export default function App() {
             </span>
         </Link>
         <div className='w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-row p-4 pt-4 text-gray-500
+          <ul className='flex flex-row justify-center p-4 pt-4 text-gray-500
                           md:space-x-8 md:text-lg md:font-medium md:border-0 '>
             <Link to='/portraits' className='block py-2 pr-4 pl-3 md:p-0 hover:underline hover:text-rose-400'>Portraits</Link>
             <Link to='/pricing' className='block py-2 pr-4 pl-3 md:p-0 hover:underline hover:text-rose-400'>Pricing</Link>
