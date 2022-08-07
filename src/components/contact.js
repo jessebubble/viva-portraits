@@ -45,7 +45,7 @@ export default function App() {
           <div className='inline-grid grid-col items-center '> 
             <img src='../bianca-berg-unsplash.png' alt='portrait' className='xl:h-96 xl:rounded-lg hover:rotate-6' />
           </div>
-          <div className='inline-grid grid-cols-1 '> 
+          <div className='inline-grid grid-col'> 
           <div className='pt-3 xl:pl-48'>
             <h2 className='text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
               Ready to <span className='text-fuchsia-500 xl:text-white font-medium'>VIVA</span>

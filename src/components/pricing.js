@@ -42,30 +42,30 @@ export default function App() {
     </main>
     <main className='bg-gradient-to-b from-white via-emerald-300 to-emerald-500'>
       <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-8 sm:pb-6'>
-        <div className='inline-grid grid-cols-1'> 
-          <div className='pt-6 xl:pr-36 '>
+        <div className='inline-grid grid-col'> 
+          <div className='pt-6 xl:pr-20 '>
             <h2 className='text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
               Pricing with a <span className='text-rose-500 '>PURPOSE</span>
             </h2>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 text-xl md:text-2xl font-lighter lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>memory</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>picture</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>pet</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-lighter lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>moment</span>
@@ -76,8 +76,8 @@ export default function App() {
         <div className='inline-grid grid-cols-2 items-center pt-6 '> 
           <img src='../vahid-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
           <img src='../rene-muller-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
-          <img src='../zachary-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
-          <img src='../zoe-gayah-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
+          <img src='../houcine-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
+          <img src='../mishael-zahed-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
         </div>
       </div>
     </main>

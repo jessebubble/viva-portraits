@@ -43,10 +43,10 @@ export default function App() {
     <main className='bg-gradient-to-b from-white via-amber-300 to-amber-500'>
       <div className='flex flex-col xl:flex-row w-full items-center justify-center pt-8 pb-8 sm:pb-6'>
           <div className='inline-grid grid-cols-2 items-center '> 
-            <img src='../ashas-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
+            <img src='../jessica-felicio-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
             <img src='../brian-lawson-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
-            <img src='../yulia-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
-            <img src='../jessica-felicio-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
+            <img src='../ashas-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
+            <img src='../gez-xavier-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
           </div>
           <div className='inline-grid grid-cols-1 '> 
           <div className='pt-3 lg:pl-36'>
