@@ -33,39 +33,39 @@ export default function App() {
     <main className="flex flex-col items-top">
       <div className='px-4 py-1 xl:py-2 bg-gray-900'>
         <h2 className='text-3xl pt-1 xl:pt-3 text-center tracking-tight font-light text-white md:text-6xl'>
-          <span className='text-emerald-500'>VIVA</span> Portraits
+          <span className='text-emerald-500'>VIVA</span> Pricing
         </h2>
         <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-white pb-1 xl:pb-2'>
           More than just a picture
         </p>
       </div>
     </main>
-    <main className='bg-gradient-to-b from-white via-emerald-300 to-emerald-500'>
+    <main className='bg-gradient-to-r from-emerald-600 via-white to-emerald-600'>
       <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-8 sm:pb-6'>
         <div className='inline-grid grid-col'> 
-          <div className='pt-6 xl:pr-20 '>
+          <div className='pt-6 xl:px-20'>
             <h2 className='text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
               Pricing with a <span className='text-rose-500 '>PURPOSE</span>
             </h2>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 text-xl md:text-2xl font-light lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>memory</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>picture</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>pet</span>
           </div>
           </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-gray-400 bg-transparent text-xl md:text-2xl font-light lg:p-5
+          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
                       transform hover:translate-y-4 transition duration-300 ease-in-out'>
           <div className='text-gray-900 hover:text-rose-500 '>
             More than just a <span className='text-rose-500'>moment</span>
@@ -73,11 +73,12 @@ export default function App() {
           </div>
           </div>
         </div>
-        <div className='inline-grid grid-cols-2 items-center pt-6 '> 
-          <img src='../vahid-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
-          <img src='../rene-muller-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
-          <img src='../houcine-unsplash.png' alt='portrait' className='xl:h-96 hover:rotate-6' />
-          <img src='../mishael-zahed-unsplash.png' alt='portrait' className='xl:h-96 hover:-rotate-6' />
+        <div className='inline-grid grid-cols-2 items-center pt-6 pb-2 px-16 '> 
+          <img src='../eddie-lackmann-unsplash.png' alt='portrait' className='xl:h-80 hover:rotate-6' />
+          <img src='../radek-unsplash.png' alt='portrait' className='xl:h-80 hover:-rotate-6' />
+          <img src='../mishael-zahed-unsplash.png' alt='portrait' className='xl:h-80 hover:rotate-6' />
+          <img src='../houcine-unsplash.png' alt='portrait' className='xl:h-80 hover:-rotate-6' />
+
         </div>
       </div>
     </main>

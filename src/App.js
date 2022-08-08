@@ -30,11 +30,11 @@ export default function App() {
       </div>
     </nav>
 
-    <main className='bg-gradient-to-b from-white via-amber-100 to-rose-300'>
-      <div className='max-w-2xl lg:max-w-7xl mx-auto py-6 xl:py-9 px-2 sm:px-6 lg:px-8 '>
+    <main className='bg-gradient-to-r from-black via-white to-black'>
+      <div className='max-w-2xl lg:max-w-7xl mx-auto py-6 xl:py-9 px-2 sm:px-6 lg:px-8 xl:px-64 '>
         <div className="pb-5 xl:pb-10 ">
             <h1 className="text-4xl md:text-5xl xl:text-7xl text-center tracking-tight font-light text-black ">
-                <span className='text-rose-400'>VIVA </span>Portraits
+                <span className='text-rose-500'>VIVA </span>Portraits
             </h1>
             <p className="text-lg xl:text-xl text-center font-light tracking-tight text-black">
               More Than Just A Picture
@@ -43,7 +43,7 @@ export default function App() {
         <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 gap-x-6 xl:gapx-8'>
           <div className='w-full rounded-lg overflow-hidden bg-sky-400'>
             <img src='../bianca-berg-unsplash.png' alt='headshot' 
-                className='w-full h-full object-center object-cover  hover:rotate-6'
+                className='w-full h-full object-center object-cover hover:rotate-6'
               />
           </div>
           <div className='w-full rounded-lg overflow-hidden bg-lime-400'>
