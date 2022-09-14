@@ -1,121 +1,45 @@
-import { Link } from 'react-router-dom';
+import Nav from './navbar';
+import Footer from './footer';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 export default function App() {
   return (
     <>
-    <nav className='border-gray-200 px-2 sm:px-4 py-2.5 sticky top-0 bg-gray-900'>
-      <div className='container flex flex-wrap justify-between items-center mx-auto'>
-        <Link to='/' className='flex items-center'>
-          <img src='./icons8.png' alt='collage icon' className='pr-1 h-8 sm:h-9' />
-            <span className='self-center tracking-tight text-2xl xl:text-4xl font-semibold whitespace-nowrap text-white'>
-              VIVA Portraits
-            </span>
-        </Link>
-        <div className='w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-row justify-center p-4 pt-4 md:space-x-8 md:text-lg md:font-medium md:border-0 '>
-            <Link to='/portraits' 
-                  className='block py-2 pr-4 pl-3 text-white md:p-0 hover:text-rose-400'
-                  aria-current='page'>Portraits
-            </Link>
-            <Link to='/pricing' 
-                  className='block py-2 pr-4 pl-3 text-white md:p-0 hover:text-rose-400'
-                  aria-current='page'>Pricing
-            </Link>
-            <Link to='/contact' 
-                  className='block py-2 pr-4 pl-3 text-white md:p-0 hover:text-rose-400'
-                  aria-current='page'>Contact
-            </Link>
-          </ul>
+    <Nav />
+  
+    <main className='bg-slate-900'>
+      <div className='pt-1 pb-1 flex flex-row items-center justify-evenly'>
+        <div className='lg:w-1/12'>
+          <Player
+            src='https://assets8.lottiefiles.com/packages/lf20_seidgi4z.json'
+            className=''
+            background='transparent'
+            loop={true}
+            autoplay={true} >
+          </Player>
         </div>
-      </div>
-    </nav>
-
-    <main className="flex flex-col items-top">
-      <div className='px-4 py-1 xl:py-2 bg-gray-900'>
-        <h2 className='text-3xl pt-1 xl:pt-3 text-center tracking-tight font-light text-white md:text-6xl'>
-          <span className='text-emerald-500'>VIVA</span> Pricing
-        </h2>
-        <p className='text-lg pt-1 xl:pt-2 text-center tracking-tight text-white pb-1 xl:pb-2'>
-          More than just a picture
-        </p>
-      </div>
-    </main>
-    <main className='bg-gradient-to-r from-emerald-600 via-white to-emerald-600'>
-      <div className='flex flex-col xl:flex-row w-full items-center justify-center pb-8 sm:pb-6'>
-        <div className='inline-grid grid-col'> 
-          <div className='pt-6 xl:px-20'>
-            <h2 className='text-center text-4xl font-light tracking-tight md:text-6xl pb-4 xl:pb-8'>
-              Pricing with a <span className='text-rose-500 '>PURPOSE</span>
-            </h2>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current text-xl md:text-2xl font-light lg:p-5
-                      transform hover:translate-y-4 transition duration-300 ease-in-out'>
-          <div className='text-gray-900 hover:text-rose-500 '>
-            More than just a <span className='text-rose-500'>memory</span>
-          </div>
-          </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
-                      transform hover:translate-y-4 transition duration-300 ease-in-out'>
-          <div className='text-gray-900 hover:text-rose-500 '>
-            More than just a <span className='text-rose-500'>picture</span>
-          </div>
-          </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
-                      transform hover:translate-y-4 transition duration-300 ease-in-out'>
-          <div className='text-gray-900 hover:text-rose-500 '>
-            More than just a <span className='text-rose-500'>pet</span>
-          </div>
-          </div>
-          <div className='pb-3 xl:pb-6 p-2 text-center shadow-sm shadow-current bg-transparent text-xl md:text-2xl font-light lg:p-5
-                      transform hover:translate-y-4 transition duration-300 ease-in-out'>
-          <div className='text-gray-900 hover:text-rose-500 '>
-            More than just a <span className='text-rose-500'>moment</span>
-          </div>
-          </div>
-          </div>
+        <div className='lg:w-1/12'>
+          <Player
+            src='https://assets8.lottiefiles.com/packages/lf20_seidgi4z.json'
+            className=''
+            background='transparent'
+            loop={true}
+            autoplay={true} >
+          </Player>
         </div>
-        <div className='inline-grid grid-cols-2 items-center pt-6 pb-2 px-16 '> 
-          <img src='../eddie-lackmann-unsplash.png' alt='portrait' className='xl:h-80 hover:rotate-6' />
-          <img src='../radek-unsplash.png' alt='portrait' className='xl:h-80 hover:-rotate-6' />
-          <img src='../mishael-zahed-unsplash.png' alt='portrait' className='xl:h-80 hover:rotate-6' />
-          <img src='../houcine-unsplash.png' alt='portrait' className='xl:h-80 hover:-rotate-6' />
-
+        <div className='lg:w-1/12'>
+          <Player
+            src='https://assets8.lottiefiles.com/packages/lf20_seidgi4z.json'
+            className=''
+            background='transparent'
+            loop={true}
+            autoplay={true} >
+          </Player>
         </div>
       </div>
     </main>
-    <main className="flex flex-col items-top">
-      <div className="bg-gray-900 px-4 py-10 xl:py-11">
-        <h2 className='items-center text-center text-4xl font-light tracking-tight md:text-6xl md:pl-1 lg:pb-4'>
-            <span className="block text-teal-300 ">Your Portrait Brought to Life</span>
-        </h2>
-        <div className='pt-8 pb-8 flex justify-around'>
-            <div className='pb-3 p-2 items-center text-center shadow-md lg:shadow-lg shadow-indigo-300 border-2 border-white px-5 md:px-7 bg-black text-2xl md:text-4xl font-lighter lg:p-3
-                            transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
-                <Link to="/contact" className='text-rose-400 hover:text-gray-900'>
-                  Contact Us
-                </Link>
-            </div>
-        </div>
-      </div>
-    </main>
-
-    <footer className='bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5'>
-      <div className='container flex flex-wrap justify-between items-center mx-auto'>
-        <Link to='/' className='flex items-center'>
-          <img src='./icons8.png' alt='collage icon' className='pr-1 h-8 sm:h-9' />
-            <span className='self-center text-2xl xl:text-4xl font-semibold whitespace-nowrap text-white'>
-              VIVA Portraits
-            </span>
-        </Link>
-        <div className='w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-row justify-center p-4 pt-4 text-gray-500
-                          md:space-x-8 md:text-lg md:font-medium md:border-0 '>
-            <Link to='/portraits' className='block py-2 pr-4 pl-3 md:p-0 hover:underline hover:text-rose-400'>Portraits</Link>
-            <Link to='/pricing' className='block py-2 pr-4 pl-3 md:p-0 hover:underline hover:text-rose-400'>Pricing</Link>
-            <Link to='/contact' className='block py-2 pr-4 pl-3 md:p-0 hover:underline hover:text-rose-400'>Contact</Link>
-          </ul>
-        </div>
-    </div>  
-    </footer>
+    
+    <Footer />
     </>
   );
 }
