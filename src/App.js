@@ -1,6 +1,5 @@
 import Nav from './components/navbar';
 import Footer from './components/footer';
-import { Player } from '@lottiefiles/react-lottie-player';
 import { Link } from 'react-router-dom';
 import './index.css';
 
@@ -9,50 +8,36 @@ export default function App() {
     <>
     <Nav />
 
-    <main className="bg-slate-600 flex flex-col lg:flex-row">
-      <div className="flex items-center justify-center lg:justify-end w-full">
-        <div className="pb-2 md:pb-4">
-          <div className="mt-10 px-4 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="text-center lg:text-left">
-              <h1 className="text-3xl font-bold tracking-tight antialiased text-white md:text-4xl lg:text-6xl">
-                <span className="xl:inline">More Than Just A </span>
-                <span className="block text-fuchsia-600 ">Picture</span>
-              </h1>
-              <p className="tracking-tight antialiased mt-3 text-white mx-auto max-w-xl text-lg md:mt-5 md:text-xl">
-                We're a team of local creatives who are passionate about capturing your moments and bringing them to life
-              </p>
-            <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-              <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light
+    <main className="bg-slate-900">
+      <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
+        <div className="">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
+            More Than Just A <span className="block text-fuchsia-500">Picture</span>
+          </h1>
+          <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
+            We're a team of local creatives who are passionate about capturing your moments and bringing them to life 
+          </p>
+          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
-                <Link to="/about" className='text-white hover:text-gray-900'>
-                  Learn More 
-                </Link>
-              </div>
-            </div>
+              <Link to="/community" className='text-white hover:text-gray-900'>
+                Learn More 
+              </Link>
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-full flex items-end justify-start">
-        <div className='lg:w-9/12'> 
-              <Player
-              src='https://assets6.lottiefiles.com/packages/lf20_9n9j2nih.json'
-              className=''
-              background='transparent'
-              loop={true}
-              autoplay={true} >
-              </Player>
+        <div className=''>
+          <img 
+            src='./studio2-unsplash.png'
+            alt='VIVA Studio Days'
+            className='w-64 md:w-96 lg:w-128 opacity-80'
+          />
         </div>
       </div>
     </main>
 
-    <main className='bg-slate-600'>
-      <div className='bg-heroPattern p-10 md:p-14 lg:p-20'>
-      </div>
-    </main>
-
-    <main className='bg-white'>
-      <div className='flex flex-row flex-nowrap gap-4 p-1 md:p-2 lg:p-3 lg:mt-16 lg:mb-16 items-center justify-evenly w-full'>
+    <main className='bg-slate-900 bg-heroPattern'>
+      <div className='flex flex-row flex-nowrap gap-4 p-1 md:p-2 lg:p-3 lg:pt-10 lg:pb-10 items-center justify-evenly w-full'>
         <div className='border border-slate-100 bg-lime-500'>
           <div className='flex flex-col items-center p-1'>
             <Link to='/portraits' className='hover:underline '>
@@ -66,7 +51,7 @@ export default function App() {
         </div>
         <div className='border border-slate-100 bg-yellow-500'>
           <div className='flex flex-col items-center p-2'>
-            <Link to='/portraits' className='hover:underline '>
+            <Link to='/pricing' className='hover:underline '>
               <img 
                 src='../texas-unsplash.png' 
                 alt='headshot' 
@@ -77,7 +62,7 @@ export default function App() {
         </div>
         <div className='border border-slate-100 bg-sky-500'>
           <div className='flex flex-col items-center p-2'>
-            <Link to='/portraits' className='hover:underline '>
+            <Link to='/pricing' className='hover:underline '>
               <img 
                 src='../jessica-felicio-unsplash.png' 
                 alt='headshot' 
@@ -88,7 +73,7 @@ export default function App() {
         </div>
         <div className='border border-slate-100 bg-rose-500'>
           <div className='flex flex-col items-center p-2'>
-            <Link to='/portraits' className='hover:underline '>
+            <Link to='/pricing' className='hover:underline '>
               <img 
                 src='../dog-unsplash.png' 
                 alt='headshot' 
@@ -100,7 +85,7 @@ export default function App() {
       </div>
     </main>
 
-    <div className="bg-slate-100 py-4">
+    <div className="bg-slate-200 py-4">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-4 lg:pb-8">
         <div className="lg:text-center">
           <h2 className="mt-1 lg:mt-5 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl antialiased">
@@ -113,6 +98,22 @@ export default function App() {
 
         <div className="mt-10">
           <dl className="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
+
+          <div className="relative">
+              <dt>
+                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-gray-900">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+                  </svg>
+                </div>
+                <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Studio Days</p>
+              </dt>
+              <dd className="mt-2 ml-16 text-base text-gray-500">
+                Once a month we take over the studio at <span className='text-indigo-600 font-medium'>Camera Exchange</span> and offer a full service studio experience. 
+                Did we mention, $20 per person! 
+              </dd>
+            </div>
+
             <div className="relative">
               <dt>
                 <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-gray-900">
@@ -146,20 +147,7 @@ export default function App() {
               </dd>
             </div>
 
-            <div className="relative">
-              <dt>
-                <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-gray-900">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
-                  </svg>
-                </div>
-                <p className="ml-16 text-lg font-medium leading-6 text-gray-900">Studio Days</p>
-              </dt>
-              <dd className="mt-2 ml-16 text-base text-gray-500">
-                Once a month we take over the studio at <span className='text-indigo-600 font-medium'>Camera Exchange</span> and offer a full service studio experience. 
-                Did we mention, $20 per person! 
-              </dd>
-            </div>
+            
             <div className="relative">
               <dt>
                 <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-gray-900">
@@ -178,7 +166,7 @@ export default function App() {
       </div>
     </div>
     
-    <main className='bg-slate-200'>
+    <main className='bg-slate-100'>
       <div className='flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap gap-4 p-4 md:p-6 lg:p-8 items-center justify-evenly'>
         <div className='lg:w-3/12 rounded-lg overflow-hidden bg-amber-400 border-2 border-slate-700'>
           <h4 className='pb-4 text-gray-900 text-2xl tracking-tight font-bold p-6 md:p-7 xl:p-10'>
@@ -341,7 +329,7 @@ export default function App() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
               <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Your Session, Your Business, Your Way
+                Your Business, Your Way
               </span>
             </li>
             <li className='flex space-x-3'>
@@ -354,22 +342,14 @@ export default function App() {
       </div>
     </main>
 
-    <main className='bg-slate-100 border-b pt-4 pb-4'>
-      <div className='flex flex-col lg:flex-row w-full items-center justify-center'>
-          <div className='md:w-8/12 lg:w-4/12'> 
-              <Player
-              src='https://assets10.lottiefiles.com/packages/lf20_lj8friim.json'
-              className=''
-              background='transparent'
-              loop={true}
-              autoplay={true} >
-              </Player>
-          </div>
-          <div className='flex flex-col items-start justify-center bg-slate-300 p-8 md:p-20 lg:p-10 lg:w-1/4'>
-            <h2 className='text-center text-3xl lg:text-5xl font-bold subpixel-antialiased tracking-tight text-white'>
-              Ready to <span className='text-fuchsia-500'>VIVA!</span>
-            </h2>
-            <form 
+    <div className="bg-slate-200">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
+          <span className="block">Ready to VIVA?</span>
+          <span className="block text-fuchsia-600">Reserve your next session.</span>
+        </h1>
+        <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0 lg:w-1/4">
+          <form 
               className='space-y-6 pt-4' 
               action='#' 
               method='POST' >
@@ -378,7 +358,7 @@ export default function App() {
                   name='firstname' 
                   id='firstname' 
                   placeholder='First and Last Name'
-                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
                   required   
                 />
               </div>
@@ -388,7 +368,7 @@ export default function App() {
                   name='email' 
                   id='email' 
                   placeholder='Your Email'
-                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
                   required />
               </div>
               <div>
@@ -396,7 +376,7 @@ export default function App() {
                   name='event' 
                   id='event' 
                   placeholder='Select an Event'
-                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-slate-400 border-b-2 border-fuchsia-600 text-lg p-2.5' 
                   required >
                   <option>Studio Days</option>
                   <option>City Days</option>
@@ -404,14 +384,14 @@ export default function App() {
                 </select>
               </div>
               <button  
-                className='tracking-tight subpixel-antialiased p-1 items-center text-center border border-white bg-transparent text-2xl md:text-xl font-light
-                transform hover:translate-y-4 transition duration-300 ease-in-out text-white hover:bg-white hover:border-slate-900 hover:text-gray-900'>
+                className='tracking-tight subpixel-antialiased p-1 items-center text-center border border-fuchsia-600 bg-transparent text-2xl md:text-xl font-light
+                transform hover:translate-y-4 transition duration-300 ease-in-out text-fuchsia-600 hover:bg-white'>
                 Submit
               </button>
             </form>
-          </div>
+        </div>
       </div>
-    </main>
+    </div>
 
     <Footer />
     </>

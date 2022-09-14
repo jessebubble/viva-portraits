@@ -11,17 +11,17 @@ export default function App() {
       <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
-            <span className="text-rose-500">VIVA</span>
-            <span className="block">Studio Days</span>
+            More Than Just A <span className="block text-rose-500">Moment</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
-            Once a month we take over the studio at <span className='text-rose-500'>Camera Exchange</span> and offer a full service studio experience. 
-            Did we mention, $20 per person! 
+            We're a team of local creatives who are passionate about capturing your moments and bringing them to life.
+            Join us for our next events. 
+            <span className='text-teal-500'> Studio Days</span> | <span className='text-cyan-500'>City Days</span> 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
-              <Link to="/about" className='text-white hover:text-gray-900'>
+              <Link to="/pricing" className='text-white hover:text-gray-900'>
                 Reserve Your Spot 
               </Link>
             </div>
@@ -37,21 +37,21 @@ export default function App() {
       </div>
     </main>
 
-    <main className="bg-slate-300">
-      <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
-        <div className='p-10 md:p-14 lg:p-20'>
+    <main className="bg-slate-100">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
+        <div className=''>
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-emerald-500">VIVA</span>
-            <span className="block">City Days</span>
+            <span className="text-teal-500">VIVA</span>
+            <span className="block">Studio Days</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Once a month we explore the city by taking over a spot for City Days. 
-            Join us for the next City Days.
+            Once a month we take over the studio at <span className='text-teal-500'>Camera Exchange</span> and offer a full service studio experience. 
+            Did we mention, $20 per person! 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
-              <Link to="/about" className='text-gray-900'>
+              <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
             </div>
@@ -59,7 +59,29 @@ export default function App() {
         </div>
         <div className="">
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-emerald-500">VIVA</span>
+            <span className="text-teal-500">VIVA</span>
+            <span className="block">Studio Days</span>
+          </h1>
+          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
+            Once a month we take over the studio at <span className='text-teal-500'>Camera Exchange</span> and offer a full service studio experience. 
+            Did we mention, $20 per person! 
+          </p>
+          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
+                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+              <Link to="/pricing" className='text-gray-900'>
+                Reserve Your Spot 
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main className="bg-slate-300">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
+        <div className=''>
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
+            <span className="text-cyan-500">VIVA</span>
             <span className="block">City Days</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
@@ -69,7 +91,25 @@ export default function App() {
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
-              <Link to="/about" className='text-gray-900'>
+              <Link to="/pricing" className='text-gray-900'>
+                Reserve Your Spot 
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
+            <span className="text-cyan-500">VIVA</span>
+            <span className="block">City Days</span>
+          </h1>
+          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
+            Once a month we explore the city by taking over a spot for City Days. 
+            Join us for the next City Days.
+          </p>
+          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
+                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+              <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
             </div>
@@ -77,11 +117,11 @@ export default function App() {
         </div>
       </div>
     </main>
-    <main className="bg-slate-200">
-      <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
-        <div className='p-10 md:p-14 lg:p-20'>
+    <main className="bg-slate-100">
+      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
+        <div className=''>
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-sky-500">VIVA</span>
+            <span className="text-emerald-500">VIVA</span>
             <span className="block">Small Business</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
@@ -90,7 +130,7 @@ export default function App() {
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white border-black'>
-              <Link to="/about" className='text-gray-900'>
+              <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
             </div>
@@ -98,7 +138,7 @@ export default function App() {
         </div>
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-sky-500">VIVA</span>
+            <span className="text-emerald-500">VIVA</span>
             <span className="block">Small Business</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
@@ -107,7 +147,7 @@ export default function App() {
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white border-black'>
-              <Link to="/about" className='text-gray-900'>
+              <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
             </div>
@@ -118,10 +158,10 @@ export default function App() {
 
     <div className="bg-slate-300">
       <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl antialiased">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
           <span className="block">Ready to VIVA?</span>
-          <span className="block text-fuchsia-600">Reserve your next session.</span>
-        </h2>
+          <span className="block text-sky-600">Reserve your next session.</span>
+        </h1>
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0 lg:w-1/4">
         <form 
               className='space-y-6 pt-4' 
@@ -132,7 +172,7 @@ export default function App() {
                   name='firstname' 
                   id='firstname' 
                   placeholder='First and Last Name'
-                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-sky-600 text-lg p-2.5' 
                   required   
                 />
               </div>
@@ -142,7 +182,7 @@ export default function App() {
                   name='email' 
                   id='email' 
                   placeholder='Your Email'
-                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-white border-b-2 border-sky-600 text-lg p-2.5' 
                   required />
               </div>
               <div>
@@ -150,7 +190,7 @@ export default function App() {
                   name='event' 
                   id='event' 
                   placeholder='Select an Event'
-                  className='w-full bg-transparent placeholder-slate-400 text-slate-400 border-b-2 border-fuchsia-600 text-lg p-2.5' 
+                  className='w-full bg-transparent placeholder-slate-400 text-slate-400 border-b-2 border-sky-600 text-lg p-2.5' 
                   required >
                   <option>Studio Days</option>
                   <option>City Days</option>
@@ -158,8 +198,8 @@ export default function App() {
                 </select>
               </div>
               <button  
-                className='tracking-tight subpixel-antialiased p-1 items-center text-center border border-fuchsia-600 bg-transparent text-2xl md:text-xl font-light
-                transform hover:translate-y-4 transition duration-300 ease-in-out text-fuchsia-600 hover:bg-white'>
+                className='tracking-tight subpixel-antialiased p-1 items-center text-center border border-sky-600 bg-transparent text-2xl md:text-xl font-light
+                transform hover:translate-y-4 transition duration-300 ease-in-out text-sky-600 hover:bg-white'>
                 Submit
               </button>
             </form>

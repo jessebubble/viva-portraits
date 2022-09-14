@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Portraits from './components/portraits';
+import Community from './components/community';
 import Pricing from './components/pricing';
 import Contact from './components/contact';
 
@@ -12,7 +12,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/portraits" element={<Portraits />} />
+      <Route path="/community" element={<Community />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
