@@ -14,15 +14,15 @@ export default function App() {
         <div className="pb-2 md:pb-4">
           <div className="mt-10 px-4 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="text-center lg:text-left">
-              <h1 className="text-3xl font-bold tracking-tight antialiased text-slate-100 md:text-4xl lg:text-6xl">
+              <h1 className="text-3xl font-bold tracking-tight antialiased text-white md:text-4xl lg:text-6xl">
                 <span className="xl:inline">More Than Just A </span>
                 <span className="block text-fuchsia-600 ">Picture</span>
               </h1>
-              <p className="tracking-tight antialiased mt-3 text-slate-100 mx-auto max-w-xl text-lg md:mt-5 md:text-xl">
+              <p className="tracking-tight antialiased mt-3 text-white mx-auto max-w-xl text-lg md:mt-5 md:text-xl">
                 We're a team of local creatives who are passionate about capturing your moments and bringing them to life
               </p>
             <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-              <div className='tracking-tight subpixel-antialiased p-2 items-center text-center shadow-sm shadow-indigo-200 border-2 border-white bg-slate-900 text-xl md:text-2xl font-light
+              <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light
                               transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white hover:border-black'>
                 <Link to="/about" className='text-white hover:text-gray-900'>
                   Learn More 
@@ -33,8 +33,8 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-start">
-        <div className=''> 
+      <div className="w-full flex items-end justify-start">
+        <div className='lg:w-9/12'> 
               <Player
               src='https://assets6.lottiefiles.com/packages/lf20_9n9j2nih.json'
               className=''
@@ -47,7 +47,7 @@ export default function App() {
     </main>
 
     <main className='bg-slate-600'>
-      <div className='bg-heroPattern p-10 lg:p-20'>
+      <div className='bg-heroPattern p-10 md:p-14 lg:p-20'>
       </div>
     </main>
 
@@ -309,7 +309,7 @@ export default function App() {
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
               <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Create Content for your website and social media
+                Create Content for your platform
               </span>
             </li>
             <li className='flex space-x-3'>
@@ -365,7 +365,7 @@ export default function App() {
               autoplay={true} >
               </Player>
           </div>
-          <div className='flex flex-col items-start justify-center bg-slate-300 p-8 md:p-20 lg:p-10'>
+          <div className='flex flex-col items-start justify-center bg-slate-300 p-8 md:p-20 lg:p-10 lg:w-1/4'>
             <h2 className='text-center text-3xl lg:text-5xl font-bold subpixel-antialiased tracking-tight text-white'>
               Ready to <span className='text-fuchsia-500'>VIVA!</span>
             </h2>
@@ -404,7 +404,7 @@ export default function App() {
                 </select>
               </div>
               <button  
-                className='tracking-tight subpixel-antialiased p-1 items-center text-center shadow-md shadow-indigo-200 border-2 border-white bg-slate-900 text-2xl md:text-xl font-light
+                className='tracking-tight subpixel-antialiased p-1 items-center text-center border border-white bg-transparent text-2xl md:text-xl font-light
                 transform hover:translate-y-4 transition duration-300 ease-in-out text-white hover:bg-white hover:border-slate-900 hover:text-gray-900'>
                 Submit
               </button>

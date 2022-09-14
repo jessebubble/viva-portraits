@@ -58,12 +58,12 @@ export default function Nav() {
         <nav className='bg-slate-900 border-b'>
             <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8 flex items-center justify-between">
                 <Link to='/' className='flex '>
-                    <h1 className='tracking-tighter antialiased text-xl md:text-2xl lg:text-3xl font-medium text-slate-100'>
-                        <span className='text-fuchsia-600 lg:text-4xl'>VIVA</span> PORTRAITS
+                    <h1 className='tracking-tighter antialiased text-xl md:text-2xl font-medium text-slate-100'>
+                        <span className='text-fuchsia-600'>VIVA</span> PORTRAITS
                     </h1>
                 </Link>
                 <div className="hidden md:block">
-                <div className='flex space-x-2 md:space-x-4 lg:space-x-6 text-lg md:text-xl lg:text-2xl text-slate-100 pr-2 tracking-tighter antialiased'>
+                <div className='flex space-x-2 md:space-x-3 lg:space-x-4 text-lg md:text-xl text-white pr-2 tracking-tighter antialiased'>
                     <Link to='/pricing' 
                         className='hover:text-rose-400'
                         aria-current='page'>Pricing
