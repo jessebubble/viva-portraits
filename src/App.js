@@ -355,7 +355,7 @@ export default function App() {
                   name='firstname' 
                   id='firstname' 
                   placeholder='First and Last Name'
-                  className='bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
+                  className='bg-transparent placeholder-slate-400 text-gray-900 border-b-2 border-fuchsia-600 text-lg p-2.5' 
                   required   
                 />
               </div>
@@ -365,7 +365,7 @@ export default function App() {
                   name='email' 
                   id='email' 
                   placeholder='Your Email'
-                  className='bg-transparent placeholder-slate-400 text-white border-b-2 border-fuchsia-600 text-lg p-2.5' 
+                  className='bg-transparent placeholder-slate-400 text-gray-900 border-b-2 border-fuchsia-600 text-lg p-2.5' 
                   required />
               </div>
               <div>
