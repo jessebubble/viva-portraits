@@ -16,8 +16,7 @@ export default function Community() {
             We're a team of local creatives who are passionate about capturing your moments and bringing them to life 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-whitek'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-whitek'>
               <Link to="/community" className='text-gray-900'>
                 Learn More 
               </Link>
@@ -28,7 +27,7 @@ export default function Community() {
           <img 
             src='./logo_transparent.png'
             alt='VIVA Studio Days'
-            className='w-64 md:w-96 lg:w-128 opacity-80'
+            className='w-64 md:w-80 opacity-80'
           />
         </div>
       </div>
@@ -45,8 +44,7 @@ export default function Community() {
             Did we mention, $20 per person! 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
@@ -62,8 +60,7 @@ export default function Community() {
             Did we mention, $20 per person! 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
@@ -82,8 +79,7 @@ export default function Community() {
             We love our local community and we recommend <span className='text-cyan-600 font-medium'>Digital Pro Lab</span> for all of your printing options.
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
@@ -98,8 +94,7 @@ export default function Community() {
             We love our local community and we recommend <span className='text-cyan-600 font-medium'>Digital Pro Lab</span> for all of your printing options.
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
@@ -118,8 +113,7 @@ export default function Community() {
             We love our local community and we recommend <span className='text-cyan-600 font-medium'>Digital Pro Lab</span> for all of your printing options.
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
@@ -134,8 +128,7 @@ export default function Community() {
             We love our local community and we recommend <span className='text-cyan-600 font-medium'>Digital Pro Lab</span> for all of your printing options.
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light
-                              transform hover:translate-y-4 transition duration-300 ease-in-out hover:bg-white'>
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
               <Link to="/pricing" className='text-gray-900'>
                 Reserve Your Spot 
               </Link>
