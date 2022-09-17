@@ -15,7 +15,7 @@ export default function Community() {
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
             We're a team of local creatives who are passionate about capturing your moments and bringing them to life 
           </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
+          <div className="mt-5 sm:mt-8 flex items-center justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-whitek'>
               <Link to="/community" className='text-gray-900'>
                 Learn More 

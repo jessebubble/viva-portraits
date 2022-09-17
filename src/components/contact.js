@@ -18,7 +18,7 @@ export default function App() {
             Join us for our next events. 
             <span className='text-teal-500'> Studio Days</span> | <span className='text-cyan-500'>City Days</span> 
           </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
+          <div className="mt-5 sm:mt-8 flex items-center justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light hover:bg-white hover:border-black'>
               <Link to="/pricing" className='text-white hover:text-gray-900'>
                 Reserve Your Session 

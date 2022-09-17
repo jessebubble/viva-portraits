@@ -7,7 +7,7 @@ export default function Nav() {
     return (
         <>
         <div className="bg-sky-600">
-            <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
+            <div className="max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
                 <div className="flex flex-wrap items-center justify-between">
                     <div className="flex w-0 flex-1 items-center">
                         <span className="flex rounded-lg bg-sky-800 p-2">
@@ -56,7 +56,7 @@ export default function Nav() {
 
 
         <nav className='bg-slate-900 border-b'>
-            <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8 flex items-center justify-between">
+            <div className="flex items-center justify-between p-6 md:p-8">
                 <Link to='/' className='flex '>
                     <h1 className='tracking-tighter antialiased text-xl md:text-2xl font-medium text-slate-100'>
                         <span className='text-fuchsia-600'>VIVA</span> PORTRAITS
