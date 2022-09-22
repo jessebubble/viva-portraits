@@ -1,14 +1,16 @@
 import Nav from './navbar';
 import Footer from './footer';
+import Price from './pricecards';
 import { Link } from 'react-router-dom';
 
-export default function App() {
+export default function Pricing() {
   return (
     <>
     <Nav />
+    <Price />
 
-    <main className="bg-slate-900">
-      <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
+    <main className="bg-slate-900 lg:pt-6 lg:pb-6">
+      <div className="flex flex-col lg:flex-row items-center justify-center p-8 md:p-10 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
             More Than Just A <span className="block text-rose-500">Moment</span>
@@ -19,9 +21,9 @@ export default function App() {
             <span className='text-teal-500'> Studio Days</span> | <span className='text-cyan-500'>City Days</span> 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent text-xl md:text-2xl font-light hover:bg-white hover:border-black'>
-              <Link to="/pricing" className='text-white hover:text-gray-900'>
-                Reserve Your Spot 
+            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:bg-slate-200 hover:border-black'>
+              <Link to="/contact" className='text-white hover:text-gray-900'>
+                Reserve Your Session 
               </Link>
             </div>
           </div>
@@ -36,347 +38,50 @@ export default function App() {
       </div>
     </main>
 
-    <main className="bg-slate-100">
-      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
-        <div className=''>
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-teal-500">VIVA</span>
-            <span className="block">Studio Days</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Once a month we take over the studio at <span className='text-teal-500'>Camera Exchange</span> and offer a full service studio experience. 
-            Did we mention, $20 per person! 
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
+    <main className="bg-white py-16 sm:py-24">
+      <div className="relative sm:py-16">
+        <div aria-hidden="true" className="hidden sm:block">
+          <div className="absolute inset-y-0 left-0 w-1/2 rounded-r-3xl bg-gray-100"></div>
+          <svg className="absolute top-8 left-1/2 -ml-3" width="404" height="392" fill="none" viewBox="0 0 404 392">
+            <defs>
+              <pattern id="8228f071-bcee-4ec8-905a-2a059a2cc4fb" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                <rect x="0" y="0" width="4" height="4" className="text-gray-300" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
+          </svg>
+        </div>
+        <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+          <div className="relative overflow-hidden rounded-2xl bg-rose-600 px-6 py-10 shadow-xl sm:px-12 sm:py-20">
+            <div aria-hidden="true" className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
+              <svg className="absolute inset-0 h-full w-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360">
+                <path className="text-indigo-500 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
+                <path className="text-indigo-700 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
+              </svg>
             </div>
-          </div>
-        </div>
-        <div className="">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-teal-500">VIVA</span>
-            <span className="block">Studio Days</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Once a month we take over the studio at <span className='text-teal-500'>Camera Exchange</span> and offer a full service studio experience. 
-            Did we mention, $20 per person! 
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <main className="bg-slate-300">
-      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
-        <div className=''>
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-cyan-500">VIVA</span>
-            <span className="block">City Days</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Once a month we explore the city by taking over a spot for City Days. 
-            Join us for the next City Days.
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-cyan-500">VIVA</span>
-            <span className="block">City Days</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Once a month we explore the city by taking over a spot for City Days. 
-            Join us for the next City Days.
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-gray-900 bg-transparent text-xl md:text-2xl font-light hover:bg-white'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <main className="bg-slate-100">
-      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full p-8 md:p-10 lg:p-16">
-        <div className=''>
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-emerald-500">VIVA</span>
-            <span className="block">Small Business</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Corporate Portraits, Headshots, Team Events. We're ready to create content for your website, social medial and more.
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border bg-transparent text-xl md:text-2xl font-light hover:bg-white border-black'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="text-emerald-500">VIVA</span>
-            <span className="block">Small Business</span>
-          </h1>
-          <p className="tracking-tight antialiased mt-3 md:mt-5 text-gray-900 max-w-xl text-lg md:text-xl">
-            Corporate Portraits, Headshots, Team Events. We're ready to create content for your website, social medial and more.
-          </p>
-          <div className="mt-5 sm:mt-8 flex items-center justify-center lg:justify-start">
-            <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border bg-transparent text-xl md:text-2xl font-light hover:bg-white border-black'>
-              <Link to="/pricing" className='text-gray-900'>
-                Reserve Your Spot 
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <main className="bg-slate-200">
-      <div className="flex flex-col md:flex-row items-center justify-center md:justify-evenly p-8 md:p-10 lg:p-16">
-        <div className="w-full flex justify-center">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-gray-900">
-            <span className="">Ready to VIVA?</span>
-            <span className="block text-sky-600">Reserve your next session.</span>
-          </h1>
-        </div>
-        <div className='mt-10 w-full'>
-          <div className='flex flex-col-reverse items-center gap-4 md:gap-8'>
-            <form 
-              className='flex flex-col gap-4 bg-sky-50 border-2 border-sky-600 rounded-xl p-4 md:p-8 lg:p-16' 
-              action='#' 
-              method='POST' >
-              <div> 
-                <input 
-                  name='firstname' 
-                  id='firstname' 
-                  placeholder='First and Last Name'
-                  className='bg-transparent placeholder-slate-400 text-white border-b-2 border-sky-600 text-lg p-2.5' 
-                  required   
-                />
+            <div className="relative">
+              <div className="sm:text-center">
+                <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Stay Connected</h2>
+                <p className="mx-auto mt-6 max-w-2xl text-lg text-indigo-200">
+                  Our monthly themed events sent directly to your inbox once a month.
+                </p>
               </div>
-              <div>
-                <input 
-                  type='email' 
-                  name='email' 
-                  id='email' 
-                  placeholder='Your Email'
-                  className='bg-transparent placeholder-slate-400 text-white border-b-2 border-sky-600 text-lg p-2.5' 
-                  required />
-              </div>
-              <div>
-                <select 
-                  name='event' 
-                  id='event' 
-                  placeholder='Select an Event'
-                  className='bg-transparent placeholder-slate-400 text-slate-400 border-b-2 border-sky-600 text-lg p-2.5' 
-                  required >
-                  <option>Studio Days</option>
-                  <option>City Days</option>
-                  <option>Small Business</option>
-                </select>
-              </div>
-              <button  
-                className='tracking-tight antialiased p-2 items-center text-center border border-sky-600 bg-transparent text-2xl md:text-xl font-light text-sky-600 hover:bg-white'>
-                Submit
-              </button>
-            </form>
+              <form action="#" className="mt-12 sm:mx-auto sm:flex sm:max-w-lg">
+                <div className="min-w-0 flex-1">
+                  <label for="cta-email" className="sr-only">Email address</label>
+                  <input 
+                    id="cta-email" 
+                    type="email" 
+                    className="block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" 
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div className="mt-4 sm:mt-0 sm:ml-3">
+                  <button type="submit" className="block w-full rounded-md border border-transparent bg-indigo-500 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">Notify me</button>
+                </div>
+              </form>
+            </div>
           </div>
-        </div>
-      </div>
-    </main>
-
-    <main className='bg-slate-100'>
-      <div className='flex flex-col md:flex-row md:flex-wrap gap-4 p-6 md:p-8 lg:p-16 items-center justify-evenly'>
-        <div className='rounded-3xl bg-amber-400 border-2 border-slate-700'>
-          <div>
-          <h4 className='text-gray-900 text-2xl tracking-tight antialiased font-bold p-4 md:p-6 lg:p-8'>
-            <span className='text-teal-600'>VIVA</span> Studio Days
-          </h4>
-          <div className='flex items-baseline text-white px-6 md:px-7 xl:px-10'>
-            <span className='text-3xl font-semibold'>$</span>
-            <span className='text-5xl font-extrabold tracking-tight subpixel-antialiased'>20</span>
-            <span className='text-xl font-normal text-gray-700 subpixel-antialiased pl-1'>/per person</span>
-          </div>
-          <ul className='py-6 space-y-4 list-inside justify-center p-6 md:p-7 xl:p-10'>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Pets are people too
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                15 Minute Sessions
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-              One Digital Portrait Per Session
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-              Monthly Themed Sessions
-              </span>
-            </li>
-            <li className='flex space-x-3 '>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Your Session, Your Way
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            </li>
-            <button type='button' className='antialiased bg-teal-600 hover:bg-teal-700 text-white text-lg text-center font-medium p-2 '>
-              About Studio Days
-            </button>
-          </ul>
-          </div>
-        </div>
-        <div className='rounded-3xl bg-amber-400 border-2 border-slate-700'>
-          <h4 className='text-gray-900 text-2xl tracking-tight antialiased font-bold p-4 md:p-6 lg:p-8'>
-            <span className='text-indigo-600'>VIVA</span> City Days
-          </h4>
-          <div className='flex items-baseline text-white px-6 md:px-7 xl:px-10'>
-            <span className='text-3xl font-semibold'>$</span>
-            <span className='text-5xl font-extrabold tracking-tight subpixel-antialiased'>30</span>
-            <span className='text-xl font-normal text-gray-700 subpixel-antialiased pl-1'>/per person</span>
-          </div>
-          <ul className='py-6 space-y-4 list-inside justify-center p-6 md:p-7 xl:p-10'>
-            <li className='flex space-x-3'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Pets are people too
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                20 Minute Sessions
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-              Two Digital Portraits Per Session
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-              Monthly themed Sessions
-              </span>
-            </li>
-            <li className='flex space-x-3 '>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Your Session, Your Way
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            </li>
-            <button type='button' className='antialiased bg-indigo-600 hover:bg-indigo-700 text-white text-lg text-center font-medium p-2'>
-              About City Days
-            </button>
-          </ul>
-        </div>
-        <div className='rounded-3xl bg-amber-400 border-2 border-slate-700'>
-          <h4 className='pb-4 text-gray-900 text-2xl tracking-tight font-bold p-4 md:p-6 lg:p-8'>
-            <span className='text-cyan-600'>VIVA</span> Small Business
-          </h4>
-          <div className='flex items-baseline text-white px-6 md:px-7 xl:px-10'>
-            <span className='text-3xl font-semibold'>$</span>
-            <span className='text-5xl font-extrabold tracking-tight subpixel-antialiased'>200</span>
-            <span className='text-xl font-normal text-gray-700 subpixel-antialiased pl-1'>/per session</span>
-          </div>
-          <ul className='py-6 space-y-4 list-inside justify-center p-6 md:p-7 xl:p-10'>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Create Content for your platform
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Headshots for your team
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Capture Team Events
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-              Pets are people too
-              </span>
-            </li>
-            <li className='flex space-x-3 '>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-green-700">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className='text-gray-700 font-light tracking-tight subpixel-antialiased'>
-                Your Business, Your Way
-              </span>
-            </li>
-            <li className='flex space-x-3'>
-            </li>
-            <button type='button' className='antialiased bg-cyan-600 hover:bg-cyan-700 text-white text-lg text-center font-medium p-2'>
-              Schedule a Session
-            </button>
-          </ul>
         </div>
       </div>
     </main>

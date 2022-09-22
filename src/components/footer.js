@@ -8,13 +8,15 @@ export default function Footer() {
         <>
         <footer className='bg-slate-900'> 
           <div className='flex flex-row flex-wrap gap-8 md:gap-0 items-center justify-start md:justify-evenly p-8 md:p-5 '>
-           {/*  <div>
-              <Link to='/'>
-              <img src='./logo_transparent.png' alt='logo' className='h-52'/>
-              </Link>
-            </div> */}
+          <div className=''>
+                                <img 
+                                    src='./vp.png'
+                                    alt='VIVA Studio Days'
+                                    className='lg:w-36'
+                                />
+                            </div>
             <div className='flex flex-col'>
-              <h2 className='pb-2 md:pb-3 text-md md:text-lg font-medium text-indigo-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md md:text-lg font-medium text-orange-600 uppercase tracking-tight antialiased'>
                 VIVA Portraits
               </h2>
               <ul className='text-white tracking-tight antialiased'>
@@ -30,23 +32,23 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className='pb-2 md:pb-3 text-md font-medium text-indigo-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md font-medium text-orange-600 uppercase tracking-tight antialiased'>
                 Community
               </h2>
               <ul className='text-white tracking-tight antialiased'>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/' className='hover:underline'>Camera Exchange</Link>
+                  <Link to='https://camerax.com/' className='hover:underline'>Camera Exchange</Link>
                 </li>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/' className='hover:underline'>Digital PRO Lab</Link>
+                  <Link to='https://www.digitalprolab.com/' className='hover:underline'>Digital PRO Lab</Link>
                 </li>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/' className='hover:underline'>VIVA Web Design</Link>
+                  <Link to='https://www.vivawebdesign.dev/' className='hover:underline'>VIVA Web Design</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className='pb-2 md:pb-3 text-md font-medium text-indigo-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md font-medium text-orange-600 uppercase tracking-tight antialiased'>
               Follow Us
               </h2>
               <ul className='text-white tracking-tight antialiased'>
@@ -65,12 +67,12 @@ export default function Footer() {
         </footer>
         <div className='bg-slate-900 border-t border-slate-100 p-4'>
           <div className='flex items-center justify-between'>
-            <span className='text-sm tracking-tighter text-slate-600'>
+            <span className='text-sm tracking-tighter text-slate-500'>
               © 2022 vivawebdesign.dev
             </span>
             <div className='flex space-x-2'>
               <IconContext.Provider 
-                value={{ className: 'text-slate-600 hover:text-rose-400 h-6 w-8' }}>
+                value={{ className: 'text-slate-500 hover:text-orange-400 h-6 w-8' }}>
                 <Link to='/' className='hover:underline'>
                   < FiInstagram/>
                 </Link>
