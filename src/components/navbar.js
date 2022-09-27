@@ -19,13 +19,13 @@ export default function Nav() {
                             className='hover:text-rose-400'
                             aria-current='page'>Pricing
                         </Link>
-                        <Link to='/contact' 
-                            className=' hover:text-rose-400'
-                            aria-current='page'>Contact
-                        </Link>
                         <Link to='/community' 
                             className=' hover:text-rose-400'
                             aria-current='page'>Community
+                        </Link>
+                        <Link to='/contact' 
+                            className=' hover:text-rose-400'
+                            aria-current='page'>Contact
                         </Link>
                     </div>
                 </div>
@@ -91,11 +91,11 @@ export default function Nav() {
                             <a href="/pricing" className="hover:bg-slate-700 text-slate-100 block px-3 py-2 rounded-md text-md font-medium">
                             Pricing
                             </a>
-                            <a href="/contact" className="text-slate-100 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-md font-medium">
-                            Contact
-                            </a>
                             <a href="/community" className="text-slate-100 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-md font-medium">
                             Community
+                            </a>
+                            <a href="/contact" className="text-slate-100 hover:bg-slate-700 hover:text-white block px-3 py-2 rounded-md text-md font-medium">
+                            Contact
                             </a>
                         </div>
                     </div>
