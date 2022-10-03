@@ -1,8 +1,22 @@
-
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Form() {
-    return (
+    const form = useRef();
 
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_hxrxpdb', 'template_p9czz9g', form.current, 'Vg9DbywednMl26hQU')
+            .then((result) => {
+                    console.log(result.text);
+                },(error) => {
+                    console.log(error.text);
+                });
+                e.target.reset();
+    };
+
+    return (
         <main className="bg-gray-100">
             <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
                 <div className="relative bg-white shadow-xl">
@@ -62,52 +76,50 @@ export default function Form() {
                             <h3 className="text-lg font-medium text-gray-900">
                                 Send us a message
                             </h3>
-                            <form 
+                            <form
+                                ref={form}
+                                onSubmit={sendEmail}
                                 action="#" 
                                 method="POST" 
                                 className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                                 <div>
-                                    <label 
-                                        for="first-name" 
-                                        className="block text-sm font-medium text-gray-900">
-                                            First name
-                                    </label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-900">First name</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
-                                            name="first-name" 
-                                            id="first-name" 
-                                            autocomplete="given-name" 
+                                            name="name" 
+                                            id="name" 
+                                            autoComplete="name" 
                                             className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                                         />
                                     </div>
                                 </div>
                                 <div>
-                                    <label for="last-name" className="block text-sm font-medium text-gray-900">Last name</label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-900">Last name</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
-                                            name="last-name" id="last-name" 
-                                            autocomplete="family-name" 
+                                            name="name" id="name" 
+                                            autoComplete="name" 
                                             className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                                         />
                                     </div>
                                 </div>
                                 <div>
-                                    <label for="email" className="block text-sm font-medium text-gray-900">Email</label>
+                                    <label htmlFor="email" className="block text-sm font-medium text-gray-900">Email</label>
                                         <div className="mt-1">
                                             <input 
                                                 id="email" 
                                                 name="email" 
                                                 type="email" 
-                                                autocomplete="email" 
+                                                autoComplete="email" 
                                                 className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
                                             />
                                         </div>
                                 </div>
                                 <div>
                                     <div className="flex justify-between">
-                                        <label for="phone" className="block text-sm font-medium text-gray-900">Phone</label>
+                                        <label htmlFor="phone" className="block text-sm font-medium text-gray-900">Phone</label>
                                         <span id="phone-optional" className="text-sm text-gray-500">Optional</span>
                                     </div>
                                     <div className="mt-1">
@@ -115,14 +127,14 @@ export default function Form() {
                                             type="text" 
                                             name="phone" 
                                             id="phone" 
-                                            autocomplete="tel" 
+                                            autoComplete="tel" 
                                             className="block w-full rounded-md border-gray-300 py-3 px-4 text-gray-900 shadow-sm focus:border-indigo-500 focus:ring-indigo-500" 
                                             aria-describedby="phone-optional"
                                         />
                                     </div>
                                 </div>
                                 <div className="sm:col-span-2">
-                                    <label for="subject" className="block text-sm font-medium text-gray-900">Subject</label>
+                                    <label htmlFor="subject" className="block text-sm font-medium text-gray-900">Subject</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
@@ -134,7 +146,7 @@ export default function Form() {
                                 </div>
                                 <div className="sm:col-span-2">
                                     <div className="flex justify-between">
-                                        <label for="message" className="block text-sm font-medium text-gray-900">Message</label>
+                                        <label htmlFor="message" className="block text-sm font-medium text-gray-900">Message</label>
                                         <span id="message-max" className="text-sm text-gray-500">Max. 500 characters</span>
                                     </div>
                                     <div className="mt-1">
