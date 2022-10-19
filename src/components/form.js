@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { ReactComponent as Logo} from '../vivaportraits.svg'
+
 
 export default function Form() {
     const form = useRef();
@@ -17,13 +19,13 @@ export default function Form() {
     };
 
     return (
-        <main className="bg-gray-100">
+        <main className="bg-slate-900">
             <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-                <div className="relative bg-white shadow-xl">
+                <div className="relative bg-transparent shadow-xl">
                     <h2 className="sr-only">Contact us</h2>
                     <div className="grid grid-cols-1 lg:grid-cols-3">
                         {/* <!-- Contact information --> */}
-                        <div className="relative overflow-hidden bg-slate-500 py-10 px-6 sm:px-10 xl:p-12">
+                        <div className="relative overflow-hidden bg-transparent py-10 px-6 sm:px-10 xl:p-12">
                             <div className="pointer-events-none absolute inset-0 sm:hidden" aria-hidden="true">
                                 <svg className="absolute inset-0 h-full w-full" width="343" height="388" viewBox="0 0 343 388" fill="none" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z" fill="url(#linear1)" fill-opacity=".1" />
@@ -57,23 +59,19 @@ export default function Form() {
                                     </defs>
                                 </svg>
                             </div>
-                            <h3 className="text-lg font-medium text-white">
+                            <h3 className="text-lg font-medium text-gray-400">
                                 Contact us
                             </h3>
-                            <p className="mt-6 max-w-3xl text-base text-indigo-50">
+                            <p className="mt-6 max-w-3xl text-base text-gray-100">
                                 Questions about Studio Days, City Days and Small Business sessions? Send us a message and our team will get back to you as soon as possible.
                             </p>
-                            <div className=''>
-                                <img 
-                                    src='./vplogo.png'
-                                    alt='VIVA Studio Days'
-                                    className='lg:w-72'
-                                />
+                            <div className='flex items-center justify-center'>
+                                <Logo className='w-80 md:w-96 lg:w-full h-full'/>  
                             </div>
                         </div>
                         {/* <!-- Contact form --> */}
                         <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-                            <h3 className="text-lg font-medium text-gray-900">
+                            <h3 className="text-lg font-medium text-gray-400">
                                 Send us a message
                             </h3>
                             <form
@@ -83,7 +81,7 @@ export default function Form() {
                                 method="POST" 
                                 className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                                 <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-gray-900">First name</label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-100">First name</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
@@ -95,7 +93,7 @@ export default function Form() {
                                     </div>
                                 </div>
                                 <div>
-                                    <label htmlFor="name" className="block text-sm font-medium text-gray-900">Last name</label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-100">Last name</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
@@ -106,7 +104,7 @@ export default function Form() {
                                     </div>
                                 </div>
                                 <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-gray-900">Email</label>
+                                    <label htmlFor="email" className="block text-sm font-medium text-gray-100">Email</label>
                                         <div className="mt-1">
                                             <input 
                                                 id="email" 
@@ -119,7 +117,7 @@ export default function Form() {
                                 </div>
                                 <div>
                                     <div className="flex justify-between">
-                                        <label htmlFor="phone" className="block text-sm font-medium text-gray-900">Phone</label>
+                                        <label htmlFor="phone" className="block text-sm font-medium text-gray-100">Phone</label>
                                         <span id="phone-optional" className="text-sm text-gray-500">Optional</span>
                                     </div>
                                     <div className="mt-1">
@@ -134,7 +132,7 @@ export default function Form() {
                                     </div>
                                 </div>
                                 <div className="sm:col-span-2">
-                                    <label htmlFor="subject" className="block text-sm font-medium text-gray-900">Subject</label>
+                                    <label htmlFor="subject" className="block text-sm font-medium text-gray-100">Subject</label>
                                     <div className="mt-1">
                                         <input 
                                             type="text" 
@@ -146,7 +144,7 @@ export default function Form() {
                                 </div>
                                 <div className="sm:col-span-2">
                                     <div className="flex justify-between">
-                                        <label htmlFor="message" className="block text-sm font-medium text-gray-900">Message</label>
+                                        <label htmlFor="message" className="block text-sm font-medium text-gray-100">Message</label>
                                         <span id="message-max" className="text-sm text-gray-500">Max. 500 characters</span>
                                     </div>
                                     <div className="mt-1">
