@@ -4,13 +4,12 @@ import Price from './pricecards';
 import Form from './form';
 import { Link } from 'react-router-dom';
 
-export default function Pricing() {
+export default function Studio() {
   return (
     <>
     <Nav />
-    <Price />
 
-    <main className="bg-slate-900 lg:pt-6 lg:pb-6 lg:-mb-20">
+    <main className="bg-slate-900">
       <div className="flex flex-col lg:flex-row items-center justify-center p-8 md:p-10 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
@@ -18,8 +17,8 @@ export default function Pricing() {
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
             We're a team of local creatives who are passionate about capturing your moments and bringing them to life.
-            Join us for our next events. 
-            <span className='text-teal-500'> Studio Days</span> | <span className='text-cyan-500'>City Days</span> 
+            Join us for our next 
+            <span className='text-teal-500'> Studio Days</span> 
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-start">
             <div className='tracking-tight subpixel-antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:bg-slate-200 hover:border-black'>
@@ -40,6 +39,7 @@ export default function Pricing() {
     </main>
 
     <Form />
+    <Price />
     <Footer />
     </>
   );

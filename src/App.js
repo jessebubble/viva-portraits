@@ -10,14 +10,15 @@ export default function App() {
     <>
     <Nav />
 
-    <main className="bg-slate-900 lg:pt-6 lg:pb-6">
+    <main className="bg-slate-900">
       <div className="flex flex-col lg:flex-row items-center justify-center w-full p-8 md:p-10 lg:p-16">
         <div className="">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight antialiased text-white">
             More Than Just A <span className="block text-teal-500">Picture</span>
           </h1>
           <p className="tracking-tight antialiased mt-3 md:mt-5 text-white max-w-xl text-lg md:text-xl">
-            We're a team of local creatives who are passionate about capturing your moments and bringing them to life 
+            We're a team of local creatives who are passionate about capturing your moments and bringing them to life. Join us at one of our monthly events.
+            <span className='text-teal-500'> Studio Days</span> | <span className='text-cyan-500'>City Days</span>  
           </p>
           <div className="mt-5 sm:mt-8 flex items-center justify-start">
             <div className='tracking-tight antialiased p-2 items-center text-center border border-white bg-transparent rounded text-xl md:text-2xl font-light hover:bg-cyan-400'>
@@ -123,7 +124,7 @@ export default function App() {
                 </p>
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                <a href="/pricing" className="text-base font-medium text-gray-700 hover:text-indigo-400">Learn more<span aria-hidden="true"> &rarr;</span></a>
+                <a href="/studio" className="text-base font-medium text-gray-700 hover:text-indigo-400">Learn more<span aria-hidden="true"> &rarr;</span></a>
               </div>
             </div>
             <div className="flex flex-col rounded-2xl bg-white shadow-xl">
@@ -140,7 +141,7 @@ export default function App() {
                 </p>
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                <a href="/pricing" className="text-base font-medium text-gray-700 hover:text-indigo-400">Learn more<span aria-hidden="true"> &rarr;</span></a>
+                <a href="/city" className="text-base font-medium text-gray-700 hover:text-indigo-400">Learn more<span aria-hidden="true"> &rarr;</span></a>
               </div>
             </div>
             <div className="flex flex-col rounded-2xl bg-white shadow-xl">
@@ -157,7 +158,7 @@ export default function App() {
                 </p>
               </div>
               <div className="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                <a href="/pricing" className="text-base font-medium text-purple-700 hover:text-indigo-400">Learn More<span aria-hidden="true"> &rarr;</span></a>
+                <a href="/contact" className="text-base font-medium text-purple-700 hover:text-indigo-400">Learn More<span aria-hidden="true"> &rarr;</span></a>
               </div>
             </div>
           </div>

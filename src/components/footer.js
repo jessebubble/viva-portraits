@@ -12,23 +12,23 @@ export default function Footer() {
               <Logo className='w-80 md:w-96 lg:w-40 h-full'/>  
             </div>
             <div className='flex flex-col'>
-              <h2 className='pb-2 md:pb-3 text-md md:text-lg font-medium text-orange-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md md:text-lg font-medium text-slate-500 uppercase tracking-tight antialiased'>
                 VIVA Portraits
               </h2>
               <ul className='text-white tracking-tight antialiased'>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/community' className='hover:underline'>Community</Link>
+                  <Link to='/community' className='hover:underline'>Studio Days</Link>
                 </li>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/contact' className='hover:underline'>Contact Us</Link>
+                  <Link to='/contact' className='hover:underline'>City Days</Link>
                 </li>
                 <li className='pb-2 md:pb-3'>
-                  <Link to='/pricing' className='hover:underline'>Pricing</Link>
+                  <Link to='/pricing' className='hover:underline'>Contact Us</Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className='pb-2 md:pb-3 text-md font-medium text-orange-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md font-medium text-slate-500 uppercase tracking-tight antialiased'>
                 Community
               </h2>
               <ul className='text-white tracking-tight antialiased'>
@@ -44,7 +44,7 @@ export default function Footer() {
               </ul>
             </div>
             <div className="">
-              <h2 className='pb-2 md:pb-3 text-md font-medium text-orange-600 uppercase tracking-tight antialiased'>
+              <h2 className='pb-2 md:pb-3 text-md font-medium text-slate-500 uppercase tracking-tight antialiased'>
               Follow Us
               </h2>
               <ul className='text-white tracking-tight antialiased'>
@@ -61,14 +61,14 @@ export default function Footer() {
             </div>
           </div>
         </footer>
-        <div className='bg-slate-900 border-t border-slate-100 pb-3 pt-3 p-4'>
+        <div className='bg-slate-900 border-t border-slate-100 pb-3 pt-3 p-10'>
           <div className='flex flex-col md:flex-row items-center justify-between'>
             <span className='text-sm tracking-tighter text-slate-500 mb-2'>
-              © 2022 Viva Portraits | site built by viva web design
+              © 2022 Viva Portraits | website built by viva web design
             </span>
             <div className='flex space-x-2'>
               <IconContext.Provider 
-                value={{ className: 'text-slate-500 hover:text-orange-400 h-6 w-8' }}>
+                value={{ className: 'text-slate-500 hover:text-indigo-500 h-6 w-6' }}>
                 <Link to='/' className='hover:underline'>
                   < FiInstagram/>
                 </Link>

@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { ReactComponent as Logo} from '../vivaportraits.svg'
 
 
 export default function Form() {
@@ -31,8 +30,8 @@ export default function Form() {
                                     <path d="M-99 461.107L608.107-246l707.103 707.107-707.103 707.103L-99 461.107z" fill="url(#linear1)" fill-opacity=".1" />
                                     <defs>
                                         <linearGradient id="linear1" x1="254.553" y1="107.554" x2="961.66" y2="814.66" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#fff"></stop>
-                                        <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                                            <stop stop-color="#fff"></stop>
+                                            <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -42,8 +41,8 @@ export default function Form() {
                                     <path d="M-161 382.107L546.107-325l707.103 707.107-707.103 707.103L-161 382.107z" fill="url(#linear2)" fill-opacity=".1" />
                                     <defs>
                                         <linearGradient id="linear2" x1="192.553" y1="28.553" x2="899.66" y2="735.66" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#fff"></stop>
-                                        <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                                            <stop stop-color="#fff"></stop>
+                                            <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
@@ -53,21 +52,21 @@ export default function Form() {
                                     <path d="M-161 679.107L546.107-28l707.103 707.107-707.103 707.103L-161 679.107z" fill="url(#linear3)" fill-opacity=".1" />
                                     <defs>
                                         <linearGradient id="linear3" x1="192.553" y1="325.553" x2="899.66" y2="1032.66" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#fff"></stop>
-                                        <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+                                            <stop stop-color="#fff"></stop>
+                                            <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
                                         </linearGradient>
                                     </defs>
                                 </svg>
                             </div>
                             <h3 className="text-lg font-medium text-gray-400">
-                                Contact us
+                                Let's Connect
                             </h3>
                             <p className="mt-6 max-w-3xl text-base text-gray-100">
-                                Questions about Studio Days, City Days and Small Business sessions? Send us a message and our team will get back to you as soon as possible.
+                                Want to host a spot for a future <span className='text-indigo-500'>City Days</span> adventure? 
+                                Have a fun idea you want to share for a future <span className='text-indigo-500'>Studio Day</span> themed shot? 
+                                Need to schedule a <span className='text-indigo-500'>Small Business</span> session for your next event?  
+                                We love to collaborate! Send us a message and our team will get back to you as soon as possible.
                             </p>
-                            <div className='flex items-center justify-center'>
-                                <Logo className='w-80 md:w-96 lg:w-full h-full'/>  
-                            </div>
                         </div>
                         {/* <!-- Contact form --> */}
                         <div className="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
@@ -152,7 +151,7 @@ export default function Form() {
                                     </div>
                                 </div>
                                 <div className="sm:col-span-2 sm:flex sm:justify-end">
-                                    <button type="submit" className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-slate-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto">Submit</button>
+                                    <button type="submit" className="mt-2 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-500 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:w-auto">Submit</button>
                                 </div>
                             </form>
                         </div>

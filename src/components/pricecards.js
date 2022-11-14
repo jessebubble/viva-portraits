@@ -2,7 +2,7 @@ export default function Price() {
     return (
         <>
         <main className="bg-slate-900">
-            <div className="pt-12 sm:pt-16 lg:pt-24">
+            <div className="pt-12 sm:pt-16">
                 <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
                     <div className="mx-auto max-w-3xl space-y-2 lg:max-w-none">
                         <h2 className="text-xl font-semibold leading-6 text-gray-300">Pricing</h2>
@@ -160,7 +160,7 @@ export default function Price() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="text-center">
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-                            <span className='text-green-500'>VIVA</span> Small Business</h2>
+                            <span className='text-indigo-500'>VIVA</span> Small Business</h2>
                         <p className="mt-4 text-xl text-gray-600">
                             Let our team of local creatives help bring your ideas to life.
                         </p>

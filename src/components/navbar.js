@@ -5,26 +5,24 @@ import { Menu, Transition } from "@headlessui/react";
 export default function Nav() {
     return (
         <>
-        <nav className='bg-slate-900 md:pb-2 lg:-mb-3'>
+        <nav className='bg-slate-900'>
             <div className="flex flex-col lg:flex-row items-center justify-around gap-4 md:gap-0 p-3 md:p-5">
                 <Link to='/' className=''>
-                    <h1 className='-mb-10 md:-mb-6 '>
-                        <Logo className='w-80 md:w-96 lg:w-40 h-full'/>  
-                    </h1>
+                        <Logo className='w-44 md:w-60 lg:w-32 h-full'/>  
                 </Link>
                 <div className="hidden md:block">
-                    <div className='space-x-2 md:space-x-3 lg:space-x-4 text-lg md:text-2xl lg:text-xl text-white pr-2 tracking-tighter antialiased'>
-                        <Link to='/pricing' 
+                    <div className='space-x-2 md:space-x-3 lg:space-x-8 text-lg md:text-2xl lg:text-xl text-white pr-2 tracking-tighter antialiased'>
+                        <Link to='/studio' 
                             className='hover:text-rose-400'
-                            aria-current='page'>Pricing
+                            aria-current='page'>Studio Days
                         </Link>
-                        <Link to='/community' 
+                        <Link to='/city' 
                             className=' hover:text-rose-400'
-                            aria-current='page'>Community
+                            aria-current='page'>City Days
                         </Link>
                         <Link to='/contact' 
                             className=' hover:text-rose-400'
-                            aria-current='page'>Contact
+                            aria-current='page'>Contact Us
                         </Link>
                     </div>
                 </div>
@@ -52,17 +50,17 @@ export default function Nav() {
                         <Menu.Items className="md:hidden inline-flex flex-col items-start p-6 gap-1" id="mobile-menu">
                             <Menu.Item className="hover:bg-gray-300 text-white block rounded-md text-md font-medium">
                                 {({ active }) => (
-                                    <a href="/pricing" className={`${active && 'hover:bg-yellow-200'}`}>Pricing</a>
+                                    <a href="/studio" className={`${active && 'hover:bg-yellow-200'}`}>Studio Days</a>
                                 )}
                             </Menu.Item>
                             <Menu.Item className="hover:bg-gray-300 text-white block rounded-md text-md font-medium">
                                 {({ active }) => (
-                                    <a href="/community" className={`${active && 'hover:bg-yellow-200'}`}>Community</a>
+                                    <a href="/city" className={`${active && 'hover:bg-yellow-200'}`}>City Days</a>
                                 )}
                             </Menu.Item>
                             <Menu.Item className="hover:bg-gray-300 text-white block rounded-md text-md font-medium">
                                 {({ active }) => (
-                                    <a href="/contact" className={`${active && 'hover:bg-yellow-200'}`}>Contact</a>
+                                    <a href="/contact" className={`${active && 'hover:bg-yellow-200'}`}>Contact Us</a>
                                 )}
                             </Menu.Item>
                         </Menu.Items>
